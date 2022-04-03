@@ -6,7 +6,7 @@ def total_cost():
     basic_cost = 10.50
     additional_players_cost = 3
     tc = (int(no_of_courts)*int(no_of_hours)*basic_cost)+((int(additional_players)*additional_players_cost)*int(no_of_hours))
-    print(tc)
+    print("The total cost of this booking is " + tc)
 
 
 total_cost()
